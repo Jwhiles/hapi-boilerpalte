@@ -1,20 +1,9 @@
+const { homeRoute } = require('./handlers/home.js');
+const { staticRoute } = require('./handlers/static.js');
+
 const routes = [
-  {
-    method: 'GET',
-    path: '/',
-    handler: (req, rep) => {
-      rep.file('../public/index.html');
-    }
-  },
-  {
-    method: 'GET',
-    path: '/{file*}',
-    handler: {
-      directory: {
-        path: '.'
-      }
-    }
-  }
+  homeRoute,
+  staticRoute
 ];
 
 module.exports = routes;
