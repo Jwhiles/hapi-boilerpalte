@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.org/Jwhiles/hapi-boilerpalte.svg?branch=master)](https://travis-ci.org/Jwhiles/hapi-boilerpalte)
 # hapi-boilerpalte
 A basic Hapi server which can be used as a basis for a more complex project.
 
