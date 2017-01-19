@@ -1,6 +1,8 @@
-[![Build Status](https://travis-ci.org/Jwhiles/hapi-boilerpalte.svg?branch=master)](https://travis-ci.org/Jwhiles/hapi-boilerpalte)
+
 # hapi-boilerpalte
 A basic Hapi server which can be used as a basis for a more complex project.
+
+There is a basic test set up using npm's tape module. Continuous integration is handled by travis. 
 
 ## Install instructions
 
